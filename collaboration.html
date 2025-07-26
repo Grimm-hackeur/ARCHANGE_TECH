@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🤝 Collaboration - Zephyr</title>
+  <link rel="stylesheet" href="css/collaboration.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🤝 Collaboration</h1>
+    <p>Tu veux créer quelque chose de grand ? Remplis ce formulaire et on en discute !</p><form action="https://formsubmit.co/el/juzemo" method="POST">
+  <label for="name">Ton nom ou pseudo :</label>
+  <input type="text" name="Nom" id="name" required>
+
+  <label for="email">Ton email :</label>
+  <input type="email" name="Email" id="email" required>
+
+  <label for="role">Quel rôle veux-tu proposer ?</label>
+  <select name="Rôle" id="role" required>
+    <option value="">-- Sélectionne ton rôle --</option>
+    <option value="Développeur">Développeur</option>
+    <option value="Designer">Designer</option>
+    <option value="Stratégie / Marketing">Stratégie / Marketing</option>
+    <option value="Tester / Suggérer">Testeur ou suggestion</option>
+    <option value="Autre">Autre</option>
+  </select>
+
+  <label for="message">Dis-moi ce que tu proposes :</label>
+  <textarea name="Message" id="message" rows="5" required></textarea>
+
+  <button type="submit">Envoyer ma proposition</button>
+</form>
+
+<a href="index.html" class="back-btn">⬅ Retour à l'accueil</a>
+
+  </div>
+</body>
+</html>
