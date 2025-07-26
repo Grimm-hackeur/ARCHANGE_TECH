@@ -1,0 +1,143 @@
+/* Style général */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* En-tête */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #00ffe1;
+}
+
+/* Boutons bien alignés en colonne */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  max-width: 300px;
+}
+
+/* Style des boutons */
+.btn {
+  padding: 15px;
+  background: #00ffe1;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #00cccc;
+}
+
+/* Pied de page */
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.form input,
+.form textarea,
+.form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form button {
+  background-color: #00ffe1;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background-color: #00cccc;
+}
+
+.panel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.panel-card {
+  min-width: 250px;
+  background: #1c2a30;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  flex-shrink: 0;
+}
+
+.panel-card h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+.panel-card .price {
+  font-weight: bold;
+  color: #0f0;
+  margin: 10px 0;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00d084;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.buy-btn:hover {
+  background-color: #00b374;
+}
+
+footer p {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #aaa;
+}
